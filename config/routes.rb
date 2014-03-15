@@ -1,4 +1,6 @@
 LittleRedBean::Application.routes.draw do
+  resources :reviews
+
   resources :users
 
 root 'welcome#index'
