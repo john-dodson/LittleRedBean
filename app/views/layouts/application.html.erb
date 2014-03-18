@@ -12,6 +12,16 @@
   <%= stylesheet_link_tag "jquery-ui-1.10.4.custom", "flexy-menu-gradient", media: "all", "data-turbolinks-track" => true%>
   <%= javascript_include_tag "jquery-1.10.2", "jquery-ui-1.10.4.custom", "flexy-menu", "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <script type="text/javascript">
+	jQuery(document).ready(function(){  
+		$(".flexy-menu").flexymenu({
+		speed: 400,
+		type: "horizontal",
+		align: "center",
+		indicator: true
+		});
+	});
+  </script>
 </head>
 <body>
 
