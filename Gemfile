@@ -45,6 +45,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'asset_sync'
+
 #For enabling static asset serving and logging on Heroku
 gem 'rails_12factor', group: :production
 
