@@ -61,7 +61,7 @@ LittleRedBean::Application.configure do
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-  # config.assets.precompile += %w( search.js )
+  config.assets.precompile += %w( flexy-menu-gradient.css font-awesome.css jquery-ui-1.10.4.custom.css flexy-menu.js jquery-1.10.2.js jquery-ui-1.10.4.custom.js)
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
